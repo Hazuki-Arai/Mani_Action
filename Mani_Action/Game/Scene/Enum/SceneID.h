@@ -4,7 +4,7 @@
 enum class SceneID {
 	TITLE = 0,
 	PLAY = 1,
-	Result = 2
+	RESULT = 2
 };
 
 #endif // !

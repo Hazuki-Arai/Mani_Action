@@ -143,6 +143,7 @@
   <ItemGroup>
     <ClCompile Include="Game\Frame\GameFrame.cpp" />
     <ClCompile Include="Game\Scene\Play\PlayScene.cpp" />
+    <ClCompile Include="Game\Scene\Result\ResultScene.cpp" />
     <ClCompile Include="Game\Scene\Title\TitleScene.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -150,6 +151,7 @@
     <ClInclude Include="Game\Frame\GameFrame.h" />
     <ClInclude Include="Game\Scene\Enum\SceneID.h" />
     <ClInclude Include="Game\Scene\Play\PlayScene.h" />
+    <ClInclude Include="Game\Scene\Result\ResultScene.h" />
     <ClInclude Include="Game\Scene\Title\TitleScene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,9 +1,12 @@
 #include "PlayScene.h"
 #include "../Enum/SceneID.h"
 #include <DxLib.h>
+#include <Input.h>
+
+using namespace Mani;
 
 PlayScene::PlayScene() :
-	Scene{(int)SceneID::PLAY, (int)SceneID::Result} {
+	Scene{(int)SceneID::PLAY, (int)SceneID::RESULT} {
 
 }
 
@@ -16,7 +19,9 @@ void PlayScene::Initialize() {
 }
 
 void PlayScene::Update() {
-
+	if (Input::IsKeyDown(KEY_INPUT_RETURN)) {
+		m_is_end_ = true;
+	}
 }
 
 void PlayScene::Draw() {
