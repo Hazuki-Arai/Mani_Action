@@ -1,6 +1,9 @@
 #include "TitleScene.h"
 #include "../Enum/SceneID.h"
 #include <DxLib.h>
+#include <Input.h>
+
+using namespace Mani;
 
 TitleScene::TitleScene() :
 	Scene{(int)SceneID::TITLE, (int)SceneID::PLAY} {
@@ -16,7 +19,9 @@ void TitleScene::Initialize() {
 }
 
 void TitleScene::Update() {
-
+	if (Input::IsKeyDown(KEY_INPUT_RETURN)) {
+		m_is_end_ = true;
+	}
 }
 
 void TitleScene::Draw() {
