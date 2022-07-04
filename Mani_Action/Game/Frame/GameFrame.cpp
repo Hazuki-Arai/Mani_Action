@@ -1,13 +1,14 @@
 #include "GameFrame.h"
 #include <GameSetting.h>
-#include <DxLib.h>
 #include <Input.h>
+#include "../Scene/Title/TitleScene.h"
+#include "../Scene/Enum/SceneID.h"
 
 using namespace Mani;
 
 GameFrame::GameFrame() :
 	MainFrame{} {
-	GameSetting::AppEndKeyCode() = KEY_INPUT_ESCAPE;
+	GameSetting::AppEndKeyCode() = 0x01; // EscapeÉLÅ[
 }
 
 GameFrame::~GameFrame() {
@@ -15,14 +16,8 @@ GameFrame::~GameFrame() {
 }
 
 void GameFrame::Initialize() {
-
-}
-
-void GameFrame::Update() {
-}
-
-void GameFrame::Draw() {
-
+	m_scene_manager_.AddScene(std::make_shared<TitleScene>());
+	m_scene_manager_.SceneChange((int)SceneID::TITLE);
 }
 
 void GameFrame::End() {
