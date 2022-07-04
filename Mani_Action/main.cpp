@@ -7,6 +7,7 @@
 #endif
 
 #include "Game/Frame/GameFrame.h"
+#include <Windows.h>
 
 int WINAPI WinMain(HINSTANCE inctance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
 	return GameFrame().Run();
