@@ -1,0 +1,9 @@
+Debug/
+Mani_Action\Debug/
+
+Mani_Action/Log.txt
+
+*.filters
+*.user
+
+.vs/
