@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(2655,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3535,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(3763,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  Mani_Action.vcxproj -> C:\Users\G017A1541\Documents\Create_Program\Mani_Action\Debug\Mani_Action.exe
