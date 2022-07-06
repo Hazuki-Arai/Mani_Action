@@ -141,18 +141,42 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Game\Object\Character\Player\Player.cpp" />
     <ClCompile Include="Game\Frame\GameFrame.cpp" />
+    <ClCompile Include="Game\Other\Loader\AnimLoader\AnimLoader.cpp" />
+    <ClCompile Include="Game\Other\Loader\BaseLoader\BaseLoader.cpp" />
+    <ClCompile Include="Game\Other\Loader\CSVFileLoader\CSVFileLoader.cpp" />
+    <ClCompile Include="Game\Other\Loader\ImageLoader\ImageLoader.cpp" />
+    <ClCompile Include="Game\Other\Loader\ModelLoader\ModelLoader.cpp" />
+    <ClCompile Include="Game\Scene\Load\LoadScene.cpp" />
     <ClCompile Include="Game\Scene\Play\PlayScene.cpp" />
     <ClCompile Include="Game\Scene\Result\ResultScene.cpp" />
     <ClCompile Include="Game\Scene\Title\TitleScene.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Game\Object\Character\Player\Player.h" />
     <ClInclude Include="Game\Frame\GameFrame.h" />
+    <ClInclude Include="Game\Object\ObjTag\ObjTag.h" />
+    <ClInclude Include="Game\Other\Loader\AnimLoader\AnimLoader.h" />
+    <ClInclude Include="Game\Other\Loader\BaseLoader\BaseLoader.h" />
+    <ClInclude Include="Game\Other\Loader\CSVFileLoader\CSVFileLoader.h" />
+    <ClInclude Include="Game\Other\Loader\ImageLoader\ImageLoader.h" />
+    <ClInclude Include="Game\Other\Loader\ModelLoader\ModelLoader.h" />
     <ClInclude Include="Game\Scene\Enum\SceneID.h" />
+    <ClInclude Include="Game\Scene\Load\LoadScene.h" />
     <ClInclude Include="Game\Scene\Play\PlayScene.h" />
     <ClInclude Include="Game\Scene\Result\ResultScene.h" />
     <ClInclude Include="Game\Scene\Title\TitleScene.h" />
+    <ClInclude Include="Resource\Anim\AnimID.h" />
+    <ClInclude Include="Resource\Image\ImageID.h" />
+    <ClInclude Include="Resource\Model\ModelID.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Mani_GameFramework\ManiLib\ManiLib\Resource\Model\pacchi.mv1" />
+    <None Include="Resource\Anim\LoadAnimList.csv" />
+    <None Include="Resource\Image\LoadImageList.csv" />
+    <None Include="Resource\Model\LoadModelList.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
